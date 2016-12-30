@@ -42,7 +42,7 @@
   <project path="device/rockchip/common" name="rockchip-android/rk/device/rockchip/rksdk" >
     <copyfile dest="buildspec.mk" src="buildspec-rk3288.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
-    <copyfile dest="mkimage.sh" src="mkimage.sh">
+    <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
   <project path="device/rockchip/rk3288" name="rockchip-android/rk/device/rockchip/rk3288" />
   <project path="device/sample" name="rockchip-android/device/sample" />
