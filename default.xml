@@ -3,7 +3,7 @@
   <remote  name="asus"
            fetch=".."
            review="http://gerrit.corpnet.asus/" />
-  <default revision="android-6.0"
+  <default revision="m-mr1-rk3288"
            remote="asus" sync-c="true" />
 
   <project path="RKDocs" name="rockchip-android/RKDocs" />
