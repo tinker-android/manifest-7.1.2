@@ -261,7 +261,7 @@
   <project path="external/zopfli" name="rockchip-android/external/zopfli" />
   <project path="external/zxing" name="rockchip-android/external/zxing" />
   <project path="frameworks/av" name="rockchip-android/frameworks/av" />
-  <project path="frameworks/base" name="rockchip-android/frameworks/base" />
+  <project path="frameworks/base" name="rockchip-android/rk/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="rockchip-android/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="rockchip-android/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="rockchip-android/frameworks/compile/slang" />
@@ -316,7 +316,7 @@
   <project path="hardware/intel/img/psb_video" name="rockchip-android/hardware/intel/img/psb_video" />
   <project path="hardware/intel/sensors" name="rockchip-android/hardware/intel/sensors" />
   <project path="hardware/invensense" name="rockchip-android/hardware/invensense" />
-  <project path="hardware/libhardware" name="rockchip-android/hardware/libhardware" />
+  <project path="hardware/libhardware" name="rockchip-android/rk/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="rockchip-android/hardware/libhardware_legacy" />
   <project path="hardware/marvell/bt" name="rockchip-android/hardware/marvell/bt" />
   <project path="hardware/mediatek" name="rockchip-android/hardware/mediatek" />
@@ -337,7 +337,7 @@
   <project path="hardware/qcom/sensors" name="rockchip-android/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="rockchip-android/hardware/qcom/wlan" />
   <project path="hardware/ril" name="rockchip-android/hardware/ril" />
-  <project path="hardware/rockchip/audio" name="rockchip-android/rk/hardware/rk29/audio" />
+  <project path="hardware/rockchip/audio" name="rockchip-android/rk/hardware/rockchip/audio" />
   <project path="hardware/rockchip/camera" name="rockchip-android/rk/hardware/rk29/camera" />
   <project path="hardware/rockchip/hdmicec" name="rockchip-android/rk/hardware/rk29/hdmicec" />
   <project path="hardware/rockchip/hwcomposer" name="rockchip-android/rk/hardware/rk29/hwcomposer_rga" />
