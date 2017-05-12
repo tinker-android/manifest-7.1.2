@@ -20,7 +20,8 @@
   <project path="abi/cpp" name="android/platform/abi/cpp" groups="pdk" />
   <project path="art" name="android/platform/art" groups="pdk" />
   <project path="bootable/recovery" name="android/platform/bootable/recovery" groups="pdk" remote= "aosp" revision="rk33/mid/7.0/develop" />
-  <project path="cts" name="android/platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-7.1_r4" />
+  <project path="compatibility/cdd" name="android/platform/compatibility/cdd" groups="pdk" />
+  <project path="cts" name="android/platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-7.1_r5" />
   <project path="dalvik" name="android/platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="android/platform/developers/build" />
   <project path="developers/demos" name="android/platform/developers/demos" />
@@ -50,6 +51,8 @@
   <project path="device/google/accessory/demokit" name="android/device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="android/device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
   <project path="device/google/contexthub" name="android/device/google/contexthub" groups="device" />
+  <project path="device/google/dragon" name="android/device/google/dragon" groups="device,dragon" />
+  <project path="device/google/dragon-kernel" name="android/device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
   <!--
   <project path="device/google/dragon" name="android/device/google/dragon" groups="device,dragon" />
   <project path="device/google/dragon-kernel" name="android/device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
@@ -70,6 +73,7 @@
   <project path="external/aac" name="android/platform/external/aac" groups="pdk" />
   <project path="external/adt-infra" name="android/platform/external/adt-infra" groups="adt-infra,notdefault" />
   <project path="external/android-clat" name="android/platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-mock" name="android/platform/external/android-mock" groups="pdk" />
   <project path="external/androidplot" name="android/platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ant-glob" name="android/platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="android/platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
@@ -120,6 +124,7 @@
   <project path="external/eclipse-windowbuilder" name="android/platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eigen" name="android/platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="android/platform/external/elfutils" groups="pdk" />
+  <project path="external/embunit" name="android/platform/external/embunit" groups="pdk" />
   <project path="external/emma" name="android/platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="android/platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="android/platform/external/expat" groups="pdk" />
@@ -169,6 +174,7 @@
   <project path="external/jhead" name="android/platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="android/platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="android/platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/jmonkeyengine" name="android/platform/external/jmonkeyengine" groups="pdk" />
   <project path="external/jsilver" name="android/platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="android/platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="android/platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -221,10 +227,12 @@
   <project path="external/libyuv" name="android/platform/external/libyuv" groups="libyuv,pdk-cw-fs,pdk-fs" />
   <project path="external/littlemock" name="android/platform/external/littlemock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lld" name="android/platform/external/lld" groups="pdk-fs" />
+  <project path="external/lldb" name="android/platform/external/lldb" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/llvm" name="android/platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="android/platform/external/ltrace" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lz4" name="android/platform/external/lz4" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/lzma" name="android/platform/external/lzma" groups="pdk" />
+  <project path="external/marisa-trie" name="android/platform/external/marisa-trie" groups="pdk" />
   <project path="external/markdown" name="android/platform/external/markdown" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mdnsresponder" name="android/platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="android/platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
@@ -253,6 +261,8 @@
   <project path="external/okhttp" name="android/platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-7.1_r2" />
   <project path="external/opencv" name="android/platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv3" name="android/platform/external/opencv3" />
+  <project path="external/openfst" name="android/platform/external/openfst" groups="pdk" />
+  <project path="external/openssh" name="android/platform/external/openssh" groups="pdk" />
   <project path="external/owasp/sanitizer" name="android/platform/external/owasp/sanitizer" groups="pdk-fs" />
   <project path="external/parameter-framework" name="android/platform/external/parameter-framework" groups="pdk-fs" />
   <project path="external/pcre" name="android/platform/external/pcre" groups="pdk" />
@@ -344,7 +354,7 @@
   <project path="frameworks/webview" name="android/platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="android/platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="android/platform/hardware/akm" />
-  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" revision="rk33/mid/7.0/develop" />
   <project path="hardware/bsp/intel" name="android/platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="android/platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="android/platform/hardware/intel/audio_media" groups="intel" />
@@ -606,7 +616,7 @@
       -->
   <project path="external/rk-pcba-test" name="android/rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop-drm" />
   <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk312x/mid/7.1/develop" />
-  <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3399/box/android-6.0" />
+  <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3399/box/android-7.0" />
   <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-7.0" />
   <!-- Rockchip's extra projects. end -->
   <!-- Rockchip's private projects. end -->
