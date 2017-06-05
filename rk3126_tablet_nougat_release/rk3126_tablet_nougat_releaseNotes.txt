@@ -159,3 +159,13 @@ release notes:
 2.trust.img
 若从beta版升级到正式版，请注意目前编译出来的uboot镜像文件，多出trust.img，需要更新device/rockchip/rk312x/parameter.txt,增加trust分区。
 同时，update.img等打包脚本，需要注意将trust.img包含在内。
+
+
+版本：rk3126_tablet_nougat_v1.11_170609.xml
+
+1，设置开发选项增加 log 收集功能，方便抓取调试日志
+2，增加 sdboot 支持 PCBA 测试功能
+3，解决 sdboot 升级系统无法启动问题
+4，PCBA 新增 bdt 代码，解决蓝牙测试库依赖问题
+5，禁用 touch boost，提升稳定性，减小功耗
+6，RK816 dcdc强制为pwm模式，减小电压纹波
