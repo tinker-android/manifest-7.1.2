@@ -1,0 +1,6 @@
+﻿
+======RK3368 Android7.1 BOX SDK Release Note======
+
+【rk3368_box_nougat_beta_20170726.xml 更新日志】
+
+BETA版本初始发布
