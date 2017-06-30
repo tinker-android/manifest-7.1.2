@@ -1,0 +1,13 @@
+版本：rk3288_tablet_nougat_v1.00_20170629.xml
+
+1.升级到Android 7.1.2_r6
+
+开发注意事项：
+1.基于alpha版本开发的客户，可以通过repo sync -c --no-tags进行代码更新。
+需要注意的是，固件烧写工具需要更新RKTools目录下最新工具，涉及：
+RKTools\windows\AndroidTool_Release_v2.41.zip
+RKTools\windows\FactoryTool_v1.45.zip
+RKTools\linux\Linux_Upgrade_Tool_1.27.rar
+否则会造成固件无法启动。异常log表现为kmsg打印system分区无法挂载，上层有进程一直重启。
+2.基于alpha版本开发的客户，需要注意uboot的defconfig有变化，要切换到rk3288_secure_defconfig。
+
