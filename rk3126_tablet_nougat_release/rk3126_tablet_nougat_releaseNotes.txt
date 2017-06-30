@@ -175,3 +175,24 @@ release notes:
 1，解决待机唤醒概率死机问题
 2，解决固件烧写时低格失败的问题
 3，解决 I2C 异常导致概率死机问题
+
+
+版本：rk3126_tablet_nougat_v1.13_170630.xml
+1，解决相机长时间录像拷机出现异常；
+2，解决camera录制视频时录入按钮点击音；
+3，修改rk816 待机电源效率，降低系统功耗
+4，解决待机唤醒之后clk gating问题
+5，解决充电待机死机的问题
+6，升级量产/开发工具，提升固件烧写速度
+
+开发注意事项：
+1，新增支持 SPARSE_SYSTEM_IMAGE，需在 device/rockchip/common/Boardconfig.mk 中打开宏：
+   BOARD_USE_SPARSE_SYSTEM_IMAGE ?= true
+   
+2，注意更新开发烧写工具到 RKTools 目录下最新工具，涉及：
+   RKTools\windows\AndroidTool\AndroidTool_Release_v2.41
+   RKTools\windows\AndroidTool_Release_v2.41.zip
+   RKTools\windows\FactoryTool_v1.45.zip
+   RKTools\linux\Linux_Upgrade_Tool_1.27.rar
+   
+   否则会造成固件无法启动。异常log表现为kmsg打印system分区无法挂载，上层有进程一直重启。
