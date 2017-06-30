@@ -1,5 +1,14 @@
 ======RK3328 Android7.1 SDK Release Note======
 
+【rk3328_box_nougat_v1.10_170630.xml 更新日志】
+
+- 优化原生Kodi 4K视频及HDR播放效果
+- 优化LPDDR3运行性能及效率
+- 新增Ligtening浏览器
+- 更新媒体中心版本，优化视频播放效果
+- 解决4K播放概率出现绿条纹问题
+- 提升系统稳定性
+
 【rk3328_box_nougat_v1.09_170605.xml 更新日志】
 系统
 - 新增对LPDDR3变频支持
