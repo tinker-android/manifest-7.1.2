@@ -196,3 +196,7 @@ release notes:
    RKTools\linux\Linux_Upgrade_Tool_1.27.rar
    
    否则会造成固件无法启动。异常log表现为kmsg打印system分区无法挂载，上层有进程一直重启。
+   
+   
+ 版本：rk3126_tablet_nougat_v1.13_170630.xml
+ 1，解决camera录制视频时录入按钮点击音；
