@@ -495,7 +495,7 @@
   <project name="android/rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="03b111b6736b48ec17ffee4906caecf59323d8c1" upstream="rk33/mid/7.0/develop"/>
   <project name="android/rk/hardware/rk29/camera" path="hardware/rockchip/camera" remote="rk" revision="27775e76da3159b4f71df2042d31933919d637bd" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="ca7b5c87d321b682688db1c217a60bbdb9e14223" upstream="rk32/mid/6.0/develop"/>
-  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="8d5a1cff1dc9503ba7f578ddd9ae51664f821935" upstream="phone/7.0/hwc_new_policy"/>
+  <project name="android/rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="d3ec43f2f751123ca5e7bda2d07eded4c6352a35" upstream="phone/7.0/hwc_new_policy"/>
   <project name="android/rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="a74df7544695ef7fc8bba8e4be338d750519be7e" upstream="soc_with_utgard_gpu/7.1/develop"/>
   <project name="android/rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="aec928e51175616eaa658d20b66d3dc1d63a6b04" upstream="rk32/mid/6.0/develop"/>
