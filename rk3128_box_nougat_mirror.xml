@@ -185,7 +185,7 @@
   <project path="external/libpcap" name="android/platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="android/platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libpng" name="android/platform/external/libpng" groups="pdk" />
-  <project path="external/libselinux" name="android/platform/external/libselinux" groups="pdk" />
+  <project path="external/libselinux" name="android/platform/external/libselinux" groups="pdk" remote="rk" revision="rk32/mid/7.0/develop" />
   <project path="external/libunwind" name="android/platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="android/platform/external/libunwind_llvm" />
   <project path="external/libusb" name="android/platform/external/libusb" groups="pdk-cw-fs,pdk-fs" />
