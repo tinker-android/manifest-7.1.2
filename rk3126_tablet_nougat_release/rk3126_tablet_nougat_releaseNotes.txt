@@ -176,7 +176,6 @@ release notes:
 2，解决固件烧写时低格失败的问题
 3，解决 I2C 异常导致概率死机问题
 
-
 版本：rk3126_tablet_nougat_v1.13_170630.xml
 1，解决相机长时间录像拷机出现异常；
 2，解决camera录制视频时录入按钮点击音；
@@ -198,5 +197,14 @@ release notes:
    否则会造成固件无法启动。异常log表现为kmsg打印system分区无法挂载，上层有进程一直重启。
    
    
- 版本：rk3126_tablet_nougat_v1.13_170630.xml
- 1，解决camera录制视频时录入按钮点击音；
+版本：rk3126_tablet_nougat_v1.14_170714.xml
+
+1，解决0630更新omx引入的cts测试问题
+2，解决空flash时PCBA无法引导SD启动；
+3，移动Lightning浏览器到common目录；
+4, widevine编译配置修改
+5，安全补丁更新到7月份，见ftp服务器；
+
+   ftp地址：ftp://ftp.rock-chips.com
+   user：xzj-guest
+   psw： V3qTwMQ4YV
