@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="asus"
-           fetch=".."
-           review="http://gerrit.corpnet.asus/" />
-  <default revision="m-mr1-rk3288"
-           remote="asus" sync-c="true" />
+  <remote  name="fdc"
+           fetch="."
+           review="https://172.21.130.74/gerrit/" />
+  <default revision="sbc/tinkerboard/asus/Android-6.0.1"
+           remote="fdc" sync-c="true" />
 
   <project path="RKDocs" name="rockchip-android/RKDocs" />
   <project path="RKTools" name="rockchip-android/RKTools" />
