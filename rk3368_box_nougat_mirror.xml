@@ -351,7 +351,7 @@
   <project path="frameworks/wilhelm" name="android/platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="android/platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android/platform/hardware/broadcom/libbt" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop" />
-  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="android/platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="hardware/bsp/intel" name="android/platform/hardware/bsp/intel" />
   <project path="hardware/google/apf" name="android/platform/hardware/google/apf" groups="pdk" />
   <project path="hardware/intel/audio_media" name="android/platform/hardware/intel/audio_media" groups="intel" />
