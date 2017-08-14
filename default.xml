@@ -8,6 +8,7 @@
 
   <project path="RKDocs" name="rockchip-android/RKDocs" />
   <project path="RKTools" name="rockchip-android/RKTools" />
+  <project path="device/asus/logtool" name="rockchip-android/device/asus/logtool" />
   <project path="abi/cpp" name="rockchip-android/abi/cpp" />
   <project path="art" name="rockchip-android/art" />
   <project path="bionic" name="rockchip-android/bionic" />
