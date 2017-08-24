@@ -1,6 +1,13 @@
 ﻿
 ======RK3368 Android7.1 BOX SDK Release Note======
 
+【rk3368_box_nougat_v1.00_20170825.xml 更新日志】
+1、显示框架增加主副屏配置功能
+2、增加BCSH高级显示设置功能
+3、媒体中心修复访问DMS无法播放gif功能
+4、优化安兔兔跑分
+5、更新软件开发指南文档
+
 【rk3368_box_nougat_beta_20170726.xml 更新日志】
 
 BETA版本初始发布
