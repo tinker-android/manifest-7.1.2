@@ -1,0 +1,25 @@
+﻿
+======RK3368 Android7.1 BOX SDK Release Note======
+
+【rk322x_box_nougat_v1.00_20170831.xml 更新日志】
+正式版本发布
+1.修复lightning浏览器焦点不明显问题
+2.降低Launcher界面CPU使用率
+3.修复recovery拷机低概率mali 超时卡住问题
+4.修复Youtube播放视屏时按返回键，launcher黑背景问题
+5.媒体中心：修复概率停止运行问题
+6.设置：增加BCSH设置界面的背景使得用户能更直观的调整参数
+7.修复NAND设备无法烧写序列号/以太网MAC问题
+8.TvLauncher：修复没有插入Camera会显示CamreaAPP图标问题
+9.TvLauncher：降低Launcher界面CPU使用率
+10.优化安兔兔跑分
+11.优化原生kodi17.x 4k播放流畅度
+12.修复原生kodi、youtube概率无法播放4K视频问题
+13.默认配置WITH_DEXPREOPT为false，减少固件大小
+14.实现hdmi CEC相关功能，如待机/唤醒同步，auto switch等
+15.更新视频库版本，修复视频播放问题
+16.更新软件开发指南文档
+
+************************************************************
+【rk322x_box_nougat_beta_V0.90_20170817.xml 更新日志】
+1.BETA版本初始发布
