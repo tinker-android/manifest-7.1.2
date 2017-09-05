@@ -605,7 +605,7 @@
   <project path="vendor/partner_gms" name="android/rk/platform/vendor/google" remote="rk" revision="rk33/mid/7.0/develop" force-path="true" />
       -->
   <project path="external/rk-pcba-test" name="android/rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/7.0/develop-drm" />
-  <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk33/mid/7.0/develop" />
+  <project path="vendor/widevine" name="android/rk/platform/vendor/Widevine" remote="rk" revision="rk312x/mid/7.1/develop" />
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3399/box/android-6.0" />
   <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3399/box/android-7.0" />
   <!-- Rockchip's extra projects. end -->
