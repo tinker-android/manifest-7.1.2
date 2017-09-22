@@ -208,3 +208,9 @@ release notes:
    ftp地址：ftp://ftp.rock-chips.com
    user：xzj-guest
    psw： V3qTwMQ4YV
+   
+   
+版本：rk3126_tablet_nougat_v1.15_170922.xml
+1，优化视频播放的 GPU 功耗；
+2，默认支持 alarm 对齐唤醒；
+3，默认开启 auto power 模式，优化待机功耗；
