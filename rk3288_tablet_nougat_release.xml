@@ -452,7 +452,7 @@
   <project groups="pdk-fs" name="rockchip-android/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="f42c8e0216ef7472681fb7a0989f93a8b845c70f"  />
   <project groups="pdk" name="rockchip-android/pdk" path="pdk" revision="708589163e790eb3a7fec09f4832a0f78999bdf3"  />
   <project name="rockchip-android/platform_testing" path="platform_testing" revision="3840922e3fbd500362b692e54d18e811eba7b972"  />
-  <project clone-depth="1" groups="pdk-fs" name="rockchip-android/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="4cfa2f2b82149b4d196c22f4518bef4d1d089118"  />
+  <project groups="pdk-fs" name="rockchip-android/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="4cfa2f2b82149b4d196c22f4518bef4d1d089118"  />
   <project groups="pdk,darwin" name="rockchip-android/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" revision="606e79e7cd9fc1a6ebb389b5fae0658f2c5494dc"  />
   <project groups="pdk,darwin" name="rockchip-android/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="4940bb51ee0e71440981e58a7fada9247579563b"  />
   <project groups="pdk" name="rockchip-android/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="45562a53b2a5eb7c6e8f400413d19a12c660d7b1"  />
@@ -487,7 +487,7 @@
   <project groups="linux,pdk,tradefed" name="rockchip-android/prebuilts/ninja/linux-x86" path="prebuilts/ninja/linux-x86" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9"  />
   <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="rockchip-android/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63"  />
   <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="rockchip-android/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="74e4f93e81205ac85f74eaf5fd4c86515779aee1"  />
-  <project clone-depth="1" groups="pdk" name="rockchip-android/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="370cf705185dd0d7cd4284a765f8dbe509387396"  />
+  <project groups="pdk" name="rockchip-android/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="370cf705185dd0d7cd4284a765f8dbe509387396"  />
   <project groups="pdk" name="rockchip-android/prebuilts/sdk" path="prebuilts/sdk" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680"  />
   <project groups="pdk,tools" name="rockchip-android/prebuilts/tools" path="prebuilts/tools" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce"  />
   <project groups="pdk-cw-fs,pdk-fs" name="rockchip-android/sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865"  />
