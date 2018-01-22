@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="tinker"
-           fetch="ssh://git@bitbucket.org:TinkerBoard_Android/manifest.git" />
+           fetch="." />
 
   <default revision="sbc/tinkerboard/asus/Android-6.0.1"
            remote="tinker" sync-c="true" />
