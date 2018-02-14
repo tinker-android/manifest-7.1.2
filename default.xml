@@ -431,7 +431,7 @@
   <project path="packages/wallpapers/LivePicker" name="packages-wallpapers-livepicker" />
   <project path="packages/wallpapers/MagicSmoke" name="packages-wallpapers-magicsmoke" />
   <project path="packages/wallpapers/NoiseField" name="packages-wallpapers-noisefield" />
-  <project path="packages/wallpapers/PhaseBeam" name="packages-wallpapers-phase eam" />
+  <project path="packages/wallpapers/PhaseBeam" name="packages-wallpapers-phasebeam" />
   <project path="pdk" name="pdk" />
   <project path="platform_testing" name="platform_testing" />
   <project path="prebuilts/android-emulator" name="prebuilts-android-emulator" />
