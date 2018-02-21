@@ -545,7 +545,6 @@
   <project groups="pdk" name="rockchip-android/rk/platform/external/rk-pcba-test" path="external/rk-pcba-test"      />
   <project name="rockchip-android/rk/platform/external/wlan_loader" path="external/wlan_loader"      />
   <project groups="pdk" name="rockchip-android/rk/platform/system/displayd" path="system/displayd"      />
-  <project name="rockchip-android/rk/platform/vendor/Widevine" path="vendor/widevine"      />
   <project name="rockchip-android/rk/platform/vendor/rockchip/common" path="vendor/rockchip/common"      />
   <project name="rockchip-android/rk/rkst" path="rkst"      />
   <project name="rockchip-android/rk/u-boot" path="u-boot"      />
