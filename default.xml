@@ -428,6 +428,7 @@
   <project groups="generic_fs" name="rockchip-android/packages/apps/TvSettings" path="packages/apps/TvSettings"    />
   <project groups="pdk-fs" name="rockchip-android/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"    />
   <project groups="pdk-fs" name="rockchip-android/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"    />
+  <project groups="pdk-fs" name="rockchip-android/packages/apps/VoltageDetectService" path="packages/apps/VoltageDetectService"    />
   <project name="rockchip-android/packages/experimental" path="packages/experimental"    />
   <project groups="pdk-fs" name="rockchip-android/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"    />
   <project groups="pdk-fs" name="rockchip-android/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"    />
