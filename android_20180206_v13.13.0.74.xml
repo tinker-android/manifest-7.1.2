@@ -59,7 +59,7 @@
   <project name="external-ceres-solver" path="external/ceres-solver" revision="f7df5f6e4d77fa02a0b31bdfa1badaf678db9df6"/>
   <project name="external-chromium-libpac" path="external/chromium-libpac" revision="c1e2d09f531717e7d0e853a6ea34ac605279ca83"/>
   <project name="external-chromium-trace" path="external/chromium-trace" revision="959b8363f20f32fcbde3306acf3c925388cce516"/>
-  <project name="external-chromium-webview" path="external/chromium-webview" revision="8abcff0aa0b039afb0c82ef86f763af1420111f9"/>
+  <project name="external-chromium-webview" path="external/chromium-webview" revision="f01e5dafdf9ca07da4f2e7077524deef37534bc0"/>
   <project name="external-clang" path="external/clang" revision="6270ca65199882c73aa9699d8fbeb580870e8d30"/>
   <project name="external-cmockery" path="external/cmockery" revision="77b7379c087dd5e6383aa502e36428adcdd46aab"/>
   <project name="external-compiler-rt" path="external/compiler-rt" revision="32fedd9bc60b401a52d56ac5d727add544546099"/>
