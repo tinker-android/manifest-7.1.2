@@ -487,8 +487,8 @@
   <project groups="pdk" name="prebuilts-ndk" path="prebuilts/ndk"    />
   <project groups="darwin,pdk,tradefed" name="prebuilts-ninja-darwin-x86" path="prebuilts/ninja/darwin-x86"    />
   <project groups="linux,pdk,tradefed" name="prebuilts-ninja-linux-x86" path="prebuilts/ninja/linux-x86"    />
-  <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5"    />
-  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5"    />
+  <project groups="darwin,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-darwin-x86-2.7.5" path="prebuilts/python/darwin-x86/2.7.5"    />
+  <project groups="linux,pdk,pdk-cw-fs,pdk-fs" name="prebuilts-python-linux-x86-2.7.5" path="prebuilts/python/linux-x86/2.7.5"    />
   <project groups="pdk" name="prebuilts-qemu-kernel" path="prebuilts/qemu-kernel"    />
   <project groups="pdk" name="prebuilts-sdk-n" path="prebuilts/sdk"    />
   <project groups="pdk,tools" name="prebuilts-tools" path="prebuilts/tools"    />
