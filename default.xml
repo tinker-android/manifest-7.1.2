@@ -455,7 +455,7 @@
   <project groups="pdk" name="pdk" path="pdk"    />
   <project name="platform_testing" path="platform_testing"    />
   <project groups="pdk-fs" name="prebuilts-android-emulator" path="prebuilts/android-emulator"    />
-  <project groups="pdk,darwin" name="prebuilts-clang-darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6"    />
+  <project groups="pdk,darwin" name="prebuilts-clang-darwin-x86-host-3.6" path="prebuilts/clang/darwin-x86/host/3.6"    />
   <project groups="pdk,darwin" name="prebuilts-clang-host-darwin-x86" path="prebuilts/clang/host/darwin-x86"    />
   <project groups="pdk" name="prebuilts-clang-host-linux-x86" path="prebuilts/clang/host/linux-x86"    />
   <project groups="pdk,linux" name="prebuilts-clang-linux-x86-host-3.6" path="prebuilts/clang/linux-x86/host/3.6"    />
