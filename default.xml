@@ -458,7 +458,7 @@
   <project groups="pdk,darwin" name="prebuilts-clang-darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6"    />
   <project groups="pdk,darwin" name="prebuilts-clang-host-darwin-x86" path="prebuilts/clang/host/darwin-x86"    />
   <project groups="pdk" name="prebuilts-clang-host-linux-x86" path="prebuilts/clang/host/linux-x86"    />
-  <project groups="pdk,linux" name="prebuilts-clang-linux-x86-host/3.6" path="prebuilts/clang/linux-x86/host/3.6"    />
+  <project groups="pdk,linux" name="prebuilts-clang-linux-x86-host-3.6" path="prebuilts/clang/linux-x86/host/3.6"    />
   <project groups="pdk-fs" name="prebuilts-deqp" path="prebuilts/deqp"    />
   <project groups="pdk-fs" name="prebuilts-devtools" path="prebuilts/devtools"    />
   <project groups="pdk" name="prebuilts-eclipse" path="prebuilts/eclipse"    />
@@ -527,7 +527,7 @@
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="rk-hardware-rockchip/audio" path="hardware/rockchip/audio"      />
+  <project name="rk-hardware-rockchip-audio" path="hardware/rockchip/audio"      />
   <project name="rk-hardware-rk29-camera" path="hardware/rockchip/camera"      />
   <project name="rk-hardware-rk29-hdmicec" path="hardware/rockchip/hdmicec"      />
   <project name="rk-hardware-rk29-hwcomposer_rga" path="hardware/rockchip/hwcomposer"      />
