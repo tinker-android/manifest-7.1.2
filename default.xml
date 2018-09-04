@@ -4,7 +4,7 @@
            fetch="." />
 
   <default revision="sbc/tinkerboard/asus/Android-7.1.2"
-           remote="tinker" sync-c="true" />
+           remote="tinker" />
 
   <project name="rkdocs" path="RKDocs"      />
   <project name="rktools" path="RKTools"      />
