@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="." name="tinker"/>
   
-  <default remote="tinker" revision="sbc/tinkerboard/asus/Android-6.0.1" sync-c="true"/>
+  <default remote="tinker" revision="sbc/tinkerboard/asus/Android-6.0.1"/>
   
   <project name="abi-cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="art" revision="4c0ddeb527fc79ea927a189b502674b3b77cae7d"/>

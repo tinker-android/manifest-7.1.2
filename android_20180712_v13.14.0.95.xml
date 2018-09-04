@@ -7,7 +7,7 @@
   <project name="abi-cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="art" revision="4c0ddeb527fc79ea927a189b502674b3b77cae7d"/>
   <project name="bionic" revision="bf2e8c2fc47d5dae3081e866a131385b7e8ffa25"/>
-  <project name="bootable-recovery" path="bootable/recovery" revision="ad1acd8b1bdb325b0fce0cf7762120129492ee87"/>
+  <project name="bootable-recovery" path="bootable/recovery" revision="4f63421b5035f4e5fe21a803fbee976d1f19d4c4"/>
   <project name="build" revision="fb07a99bf41f4f8038a76992e68cc26f0c1052ed">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -247,7 +247,7 @@
   <project name="external-zlib" path="external/zlib" revision="a15adad27b1a33de2f4c788809ba97cff726cf58"/>
   <project name="external-zopfli" path="external/zopfli" revision="bb96afe13a50bfc17259dcf56f44e997923c705c"/>
   <project name="external-zxing" path="external/zxing" revision="d2256df36df8778a3743e0a71eab0cc5106b98c9"/>
-  <project name="frameworks-av" path="frameworks/av" revision="ed855b5b4b9ce114b92f9d67aed4d9fdc6cf0df6"/>
+  <project name="frameworks-av" path="frameworks/av" revision="841a143444df7a981323ea2d9df9d90174307415"/>
   <project name="frameworks-compile-libbcc" path="frameworks/compile/libbcc" revision="b7f05114e5f408479b50647837cdf25187bfd164"/>
   <project name="frameworks-compile-mclinker" path="frameworks/compile/mclinker" revision="8c10afdc806cbb9d4560e90b100f0dcefdd46a21"/>
   <project name="frameworks-compile-slang" path="frameworks/compile/slang" revision="9b000b1a40b2b08e04d3961db04319a6fc97fd1b"/>
@@ -272,7 +272,7 @@
   <project name="frameworks-opt-net-ims" path="frameworks/opt/net/ims" revision="35339f66c3d33a3089f215f0f008f52df48f6e8e"/>
   <project name="frameworks-opt-net-pppoe" path="frameworks/opt/net/pppoe" revision="86e2a6fbac2c5ba885f830c6478a938ada89dfbb"/>
   <project name="frameworks-opt-net-voip" path="frameworks/opt/net/voip" revision="3d9980b3b228edd360d09ee813e1e7935e1e5efe"/>
-  <project name="frameworks-opt-net-wifi" path="frameworks/opt/net/wifi" revision="c6656c768f39540fd10ae7ed68b7108719f2d88e"/>
+  <project name="frameworks-opt-net-wifi" path="frameworks/opt/net/wifi" revision="e5c9224b6439d580f4e4238cf62262d6f0859b7e"/>
   <project name="frameworks-opt-photoviewer" path="frameworks/opt/photoviewer" revision="e4b8400f48d3a4cdf5150de0374b1b2fd7056865"/>
   <project name="frameworks-opt-setupwizard" path="frameworks/opt/setupwizard" revision="ec5da3825911ff3cfadf6a299d0cd86bd6bf7ba8"/>
   <project name="frameworks-opt-telephony" path="frameworks/opt/telephony" revision="fb6a15a570e7c0f57c5f8479bdedbc1f011d8870"/>
@@ -366,7 +366,7 @@
   <project name="packages-apps-protips" path="packages/apps/Protips" revision="ec5d268260d97499dd45849e29e8c4f5e75dd539"/>
   <project name="packages-apps-provision" path="packages/apps/Provision" revision="78ca0db658fe6253d506916e36319e620476f809"/>
   <project name="packages-apps-quicksearchbox" path="packages/apps/QuickSearchBox" revision="3ba0f015d44a71494d10daad5a6f5b487b6b7bf5"/>
-  <project name="packages-apps-settings" path="packages/apps/Settings" revision="6d14a2bd87543c3cd39deadc7355e2cfb6a52ee5"/>
+  <project name="packages-apps-settings" path="packages/apps/Settings" revision="c9ca988de10f99ecb600d82a77b7978fd3cbd087"/>
   <project name="packages-apps-smartcardservice" path="packages/apps/SmartCardService" revision="29eae320a4bd222b5ff1c092f84f1aebba88d0b7"/>
   <project name="packages-apps-soundrecorder" path="packages/apps/SoundRecorder" revision="db5acd7827176f023ec7bdd9906ad75b1b636d16"/>
   <project name="packages-apps-spareparts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91"/>
@@ -438,16 +438,16 @@
   <project name="prebuilts-sdk" path="prebuilts/sdk" revision="dbe805a3f4ca67c48f9d2ac1084a6dfc324855e5"/>
   <project name="prebuilts-tools" path="prebuilts/tools" revision="b15d7ade80fd69fb2fb7de61abfd9f1afce91c44"/>
   <project name="rk-device-rockchip-rk3288" path="device/rockchip/rk3288" revision="fc5d054e7c4d94a5d6768e87badff2418de8c6f5"/>
-  <project name="rk-device-rockchip-rksdk" path="device/rockchip/common" revision="1003e5e6e82faeb1e2fc059b624db4b84fd8a5bf">
+  <project name="rk-device-rockchip-rksdk" path="device/rockchip/common" revision="8e371c3198c329ca1d84725b49008983fba2d3e5">
     <copyfile dest="buildspec.mk" src="buildspec-rk3288.mk"/>
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
   </project>
-  <project name="rk-frameworks-base" path="frameworks/base" revision="c3946e068cbb4ddca7b6b5885c266fdbb7826f5c"/>
-  <project name="rk-hardware-libhardware" path="hardware/libhardware" revision="baf143ba61bd34db18e42829c2087d5e07981820"/>
-  <project name="rk-hardware-rk29-camera" path="hardware/rockchip/camera" revision="159b94436cd5350868bdf4a9cb9247f4722009fe"/>
+  <project name="rk-frameworks-base" path="frameworks/base" revision="62e6df35e0c3327fcbcc6f5066fc3aba23925676"/>
+  <project name="rk-hardware-libhardware" path="hardware/libhardware" revision="f7d5a775c888c96fdc0bd76c54a3f73683e194e4"/>
+  <project name="rk-hardware-rk29-camera" path="hardware/rockchip/camera" revision="bf69de42f5902ef6938c3983cce40fc83a96ea4f"/>
   <project name="rk-hardware-rk29-hdmicec" path="hardware/rockchip/hdmicec" revision="ca7b5c87d321b682688db1c217a60bbdb9e14223"/>
-  <project name="rk-hardware-rk29-hwcomposer_rga" path="hardware/rockchip/hwcomposer" revision="8d2a1be295e9555da79597da0738ebb6e788f033"/>
+  <project name="rk-hardware-rk29-hwcomposer_rga" path="hardware/rockchip/hwcomposer" revision="99846505f20914d6ab6e53da596ac2ad14607248"/>
   <project name="rk-hardware-rk29-jpeghw" path="hardware/rockchip/jpeghw" revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275"/>
   <project name="rk-hardware-rk29-libgralloc_ump" path="hardware/rockchip/libgralloc" revision="7716d904af34c5fe4bc16d287f214914cccf268a"/>
   <project name="rk-hardware-rk29-libiep" path="hardware/rockchip/libiep" revision="aec928e51175616eaa658d20b66d3dc1d63a6b04"/>
@@ -455,22 +455,22 @@
   <project name="rk-hardware-rk29-librkvpu" path="hardware/rockchip/librkvpu" revision="2f8fc35babce93a60df520868d66381cf18f83fe"/>
   <project name="rk-hardware-rk29-power" path="hardware/rockchip/power" revision="155c7a07beab97624346c5bc4417c3d07025a69a"/>
   <project name="rk-hardware-rk29-sensor" path="hardware/rockchip/sensor" revision="e283fec921cdb35602c0e4defde220e600856fc7"/>
-  <project name="rk-hardware-rockchip-audio" path="hardware/rockchip/audio" revision="8d1f9e7b2dd88b0f2f6287eb53e97df0b9fa9b7e"/>
-  <project name="rk-kernel" path="kernel" revision="f0a8725ba5df14c1ca895e26bdb263993ccecafd"/>
-  <project name="rk-platform-external-io" path="external/io" revision="ce23c82ae301239f8500e91a0008faa06db15147"/>
+  <project name="rk-hardware-rockchip-audio" path="hardware/rockchip/audio" revision="e980955a7b4bb7aed28b86239de6e5636ba44340"/>
+  <project name="rk-kernel" path="kernel" revision="43f3a804a7937ee11adcf52680cb6c3dd7d071b4"/>
+  <project name="rk-platform-external-io" path="external/io" revision="695726d305ee78a63639a39d14471b7dbff171aa"/>
   <project name="rk-platform-external-ntfs-3g" path="external/ntfs-3g" revision="e6562fac1aac779147f5236c3a1b30ecd4525059"/>
   <project name="rk-platform-external-rk-pcba-test" path="external/rk-pcba-test" revision="ff452b32baff0477e55a2e3b419604c54ac99cb1"/>
   <project name="rk-platform-external-wlan_loader" path="external/wlan_loader" revision="83da28f41705a0e75ad5576dbfa74ac879922acf"/>
   <project name="rk-platform-system-displayd" path="system/displayd" revision="e4439ecb38839d9c42fbc9bb56187ed7485e29b6"/>
-  <project name="rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" revision="3fb755295c76715a6c8c8d802d42688e4609e630"/>
+  <project name="rk-platform-vendor-rockchip-common" path="vendor/rockchip/common" revision="0cf0af5538337431a291f139667c562a3ac125e4"/>
   <project name="rk-platform-vendor-widevine" path="vendor/widevine" revision="6f843e6b6d510de78fb0c6d163e12a4415f5ad6e"/>
   <project name="rk-rkst" path="rkst" revision="c264f23734649fdb83d983bea7bcf11612651926"/>
-  <project name="rk-u-boot" path="u-boot" revision="91978d4d8d8fff27978a2adee05ed62198c561af"/>
+  <project name="rk-u-boot" path="u-boot" revision="8566d33892508b9776f78ab1059155ab99f364cf"/>
   <project name="rkdocs" path="RKDocs" revision="ad1357afedeffdaff616cc6610be457204bffac4"/>
   <project name="rktools" path="RKTools" revision="8cd49838715614d62c85e683d8b2aef5372d7037"/>
   <project name="sdk" revision="3c9c2be94a1b36a7e01c9011966137badee8b843"/>
   <project name="system-bt" path="system/bt" revision="2c2cbd938f4622030701dc75101d84f77f2388d4"/>
-  <project name="system-core" path="system/core" revision="25474124c70fac235549f2f672ce6419b7913b74"/>
+  <project name="system-core" path="system/core" revision="2269e0b578d0c8c5036b775e86d9d2b1032b4126"/>
   <project name="system-extras" path="system/extras" revision="ea35307ec386a851c4c305ce70fafda36f764135"/>
   <project name="system-gatekeeper" path="system/gatekeeper" revision="17c93e1979e777b88d409dfdf24e8f531ecdf93e"/>
   <project name="system-keymaster" path="system/keymaster" revision="e8611fccec1d4f9b84aec008148cb6bd62df73a4"/>
