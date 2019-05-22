@@ -363,7 +363,7 @@
   <project groups="qcom_msm8x84" name="hardware-qcom-msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f"/>
   <project groups="qcom" name="hardware-qcom-power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4"/>
   <project groups="qcom_wlan" name="hardware-qcom-wlan" path="hardware/qcom/wlan" revision="6328a84d72ba44e23fea24fc129ac3ca09905f31"/>
-  <project name="hardware-realtek" path="hardware/realtek" revision="92ec390982cf5de91f954c194e64fee2e42f779c"/>
+  <project name="hardware-realtek" path="hardware/realtek" revision="f9c761978e9a14513a213855d55931980cef1a76"/>
   <project groups="pdk" name="hardware-ril" path="hardware/ril" revision="4953443c43db437a84cb90d17225c05b31d3b655"/>
   <project groups="omap3" name="hardware-ti-omap3" path="hardware/ti/omap3" revision="40292fb9eeb2cf0bb95dc818da12ddcae40b931c"/>
   <project groups="omap4-aah" name="hardware-ti-omap4-aah" path="hardware/ti/omap4-aah" revision="a62514d376a94e27bec5e932aadb67401ca550b0"/>
@@ -372,7 +372,7 @@
   <project groups="pdk" name="libnativehelper" revision="8ebb2fb2e4b92592368c1360d49d5dfa16ef56cc"/>
   <project groups="generic_fs" name="ndk" revision="76ca48a9270bead748bdc8feec16ee40e0ae6f98"/>
   <project groups="pdk-cw-fs,pdk-fs" name="packages-apps-basicsmsreceiver" path="packages/apps/BasicSmsReceiver" revision="92d2dc9287a472cb46719a46069407582bbc4b34"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="packages-apps-bluetooth" path="packages/apps/Bluetooth" revision="42d1339b7c0d74e35508fc8a96bc6a38e666d13f"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="packages-apps-bluetooth" path="packages/apps/Bluetooth" revision="3589e0c8175f2cf9ef2227956a2ae7b5af7f62c5"/>
   <project groups="pdk-fs" name="packages-apps-browser" path="packages/apps/Browser" revision="3c6fc342ef1e61f70a58b22fd423a135cfe92ae1"/>
   <project name="packages-apps-browser2" path="packages/apps/Browser2" revision="2d974e22fb685fb2074defa981304d616c9f21c5"/>
   <project groups="pdk-fs" name="packages-apps-calculator" path="packages/apps/Calculator" revision="e1bda28f1545111ba7734577f23e194bf3db3f5f"/>
@@ -523,7 +523,7 @@
   <project name="rkdocs" path="RKDocs" revision="62aae3f766176464dcd387c257899e4023382ee3"/>
   <project name="rktools" path="RKTools" revision="63ee52949ceaf95831d5738130b7a90e1873c8da"/>
   <project groups="pdk-cw-fs,pdk-fs" name="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865"/>
-  <project groups="pdk" name="system-bt" path="system/bt" revision="2a22aae36fc02f25e23544ea56d8622bf8dd6e3e"/>
+  <project groups="pdk" name="system-bt" path="system/bt" revision="6b69081b9a43ee946395b5624200f132d14c5b05"/>
   <project groups="pdk" name="system-ca-certificates" path="system/ca-certificates" revision="442b6a922af8f0132841460cffe172a50f70938a"/>
   <project name="system-connectivity-apmanager" path="system/connectivity/apmanager" revision="6b32d8c3ef43ce1d5280c202733a1e9f17850eac"/>
   <project name="system-connectivity-dhcp_client" path="system/connectivity/dhcp_client" revision="bf76367cd82e6eac86993ce852286a7c36d755bf"/>
