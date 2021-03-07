@@ -507,7 +507,7 @@
   <project name="rk-hardware-rk29-librga" path="hardware/rockchip/librga" revision="849acb8d2c190620324cb56f191aac09f8546725"/>
   <project name="rk-hardware-rk29-librkvpu" path="hardware/rockchip/librkvpu" revision="6b1dafa7d20a7381032d98d83364ddffd8d8a579"/>
   <project name="rk-hardware-rk29-omx_il" path="hardware/rockchip/omx_il" revision="698d2b8f4a43b53d443f22437990f2917f9a4805"/>
-  <project name="rk-hardware-rk29-power" path="hardware/rockchip/power" revision="c258ac1db1d624c7367673ff86580d68f9855891"/>
+  <project name="power" path="hardware/rockchip/power" remote="https://gitlab.com/rockchip-group/android/rk/hardware/rk29" revision="e5bfac80ef894998780e8f05a56c914e1efba213"/>
   <project name="rk-hardware-rk29-sensor" path="hardware/rockchip/sensor" revision="96df94cb97038b6d3b9af86ee9b9df0bae205e06"/>
   <project name="rk-hardware-rockchip-audio" path="hardware/rockchip/audio" revision="997bbe87ff092f54fd0e271bb8fe75fd39833237"/>
   <project name="rk-kernel" path="kernel" revision="7fc35ed1fc39484d388700193e1a80c44adaa3e3"/>
