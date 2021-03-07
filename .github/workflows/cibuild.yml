@@ -19,12 +19,12 @@ jobs:
       run: |
         mkdir ~/bin
         curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-        PATH=~/bin:$PATH
         chmod a+x ~/bin/repo
     - name: Download the AOSP
       run: |
         nproc
         mkdir ~/aosp && cd ~/aosp
+        PATH=~/bin:$PATH
         repo init -u https://bitbucket.org/q4a/manifest -b dev
         repo sync -j$(nproc)
     - name: Test repos
