@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="tinker" fetch="." />
+  <remote name="tinker" fetch="https://bitbucket.org/q4a" />
   <remote name="tinker-android" fetch="https://github.com/tinker-android" />
   
   <default remote="tinker" revision="sbc/tinkerboard/asus/Android-7.1.2"/>
