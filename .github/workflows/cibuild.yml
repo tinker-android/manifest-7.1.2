@@ -1,9 +1,9 @@
 name: CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
-  build-linux:
+  build-android-img:
     runs-on: ubuntu-20.04
     strategy:
       fail-fast: false
@@ -29,9 +29,28 @@ jobs:
         repo sync -j$(nproc)
     - name: Test repos
       run: |
-        cd ~/aosp/hardware/rockchip/power/
+        cd ~/aosp/hardware/rockchip/power
         git remote -v
         git log -1
-        cd ~/aosp/hardware/rockchip/audio/
+        cd ~/aosp/hardware/rockchip/audio
         git remote -v
         git log -1
+    - name: Build Android
+      run: |
+        cd ~/aosp
+        source build/envsetup.sh
+        lunch rk3288-userdebug
+        cd ~/aosp/kernel
+        make ARCH=arm rockchip_defconfig
+        make ARCH=arm rk3288-miniarm.img -j$(nproc)
+        cd ~/aosp/u-boot
+        make rk3288_secure_defconfig
+        make -j$(nproc)
+        cd ~/aosp
+        make -j$(nproc)
+    - name: Build image
+      run: |
+        cd ~/aosp
+        ./mkimage.sh
+        cd ~/aosp/RKTools/linux/Linux_Pack_Firmware/rockdev
+        ./collectImages.sh && ./mkupdate.sh
